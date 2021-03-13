@@ -1,0 +1,7 @@
+templates:
+  - ./template.yml
+ignore_templates:
+  - .cfnlintrc.yml
+  - venv/**/*.yaml
+include_checks:
+  - I
